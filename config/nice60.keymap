@@ -38,7 +38,7 @@
             label = "1";
         };
 
-        altGr {
+        alt_gr {
             bindings = <
 &trans  &none   &none   &kp LS(POUND)  &kp LA(LC(LEFT_BRACE))  &kp LC(LA(LBKT))  &trans  &kp LA(LC(GRAVE))  &kp LC(LA(BSLH))  &none   &kp LC(LA(AT_SIGN))  &kp LC(LA(RBKT))  &kp LC(LA(RIGHT_BRACE))  &trans
 &trans  &trans  &trans  &trans         &trans                  &trans            &trans  &trans             &trans            &trans  &trans               &trans            &trans                   &trans
