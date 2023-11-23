@@ -37,12 +37,12 @@
              >;
          };
 
-        alt_gr {
+         alt_gr {
              bindings = <
- &trans  &none   &kp FR_TILDE  &kp LS(POUND)  &kp LA(LC(LEFT_BRACE))  &kp LC(LA(LBKT))  &trans  &kp LA(LC(GRAVE))  &kp LC(LA(BSLH))  &none   &kp LC(LA(AT_SIGN))  &kp LC(LA(RBKT))  &kp LC(LA(RIGHT_BRACE))  &trans
- &trans  &trans  &trans        &kp FR_EURO    &trans                  &trans            &trans  &trans             &trans            &trans  &trans               &trans            &kp FR_CURREN            &trans
- &trans  &trans  &trans        &trans         &trans                  &trans            &trans  &trans             &trans            &trans  &trans               &trans                                     &trans
- &trans  &trans  &trans        &trans         &trans                  &trans            &trans  &trans             &trans            &trans  &trans                                                          &trans
+ &trans  &none   &kp FR_TILDE  &kp LA(LC(POUND))  &kp LA(LC(LEFT_BRACE))  &kp LC(LA(LBKT))  &trans  &kp LA(LC(GRAVE))  &kp LC(LA(BSLH))  &none   &kp LC(LA(AT_SIGN))  &kp LC(LA(RBKT))  &kp LC(LA(RIGHT_BRACE))  &trans
+ &trans  &trans  &trans        &kp FR_EURO        &trans                  &trans            &trans  &trans             &trans            &trans  &trans               &trans            &kp FR_CURREN            &trans
+ &trans  &trans  &trans        &trans             &trans                  &trans            &trans  &trans             &trans            &trans  &trans               &trans                                     &trans
+ &trans  &trans  &trans        &trans             &trans                  &trans            &trans  &trans             &trans            &trans  &trans                                                          &trans
  &trans  &trans                &trans                                                   &trans                                               &trans               &trans            &trans                   &trans
              >;
          };
