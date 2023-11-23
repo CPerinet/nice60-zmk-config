@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/reset.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include "keys_fr.h"
 
 / {
 	keymap {
@@ -18,11 +19,11 @@
 		
 		default_layer {
 			bindings = <
-&kp ESCAPE  &kp AMPS  &none  &kp DOUBLE_QUOTES  &none  &kp KP_LEFT_PARENTHESIS  &kp KP_MINUS  &none         &kp LS(UNDERSCORE)  &none      &none     &kp KP_RIGHT_PARENTHESIS  &kp KP_EQUAL    &kp BSPC
-&kp TAB     &kp A     &kp Z  &kp E              &kp R  &kp T                    &kp Y         &kp U         &kp I               &kp O      &kp P     &none                     &kp DOLLAR      &kp STAR
-&kp CLCK    &kp Q     &kp S  &kp D              &kp F  &kp G                    &kp H         &kp J         &kp K               &kp L      &kp M     &none                                     &kp RET
-&kp LSHFT   &kp W     &kp X  &kp C              &kp V  &kp B                    &kp N         &kp KP_COMMA  &none               &kp COLON  &kp EXCL                                            &kp UP_ARROW
-&kp LCTRL   &kp LGUI         &kp LALT                                           &kp SPACE                                                  &mo 3     &kp LEFT_ARROW            &kp DOWN_ARROW  &kp RIGHT
+&kp ESCAPE  &kp AMPS  &none  &kp DOUBLE_QUOTES  &none  &kp KP_LEFT_PARENTHESIS  &kp KP_MINUS  &none         &kp LS(UNDERSCORE)  &none      &kp FR_E_GRAVE  &kp KP_RIGHT_PARENTHESIS  &kp KP_EQUAL    &kp BSPC
+&kp TAB     &kp A     &kp Z  &kp E              &kp R  &kp T                    &kp Y         &kp U         &kp I               &kp O      &kp P           &none                     &kp DOLLAR      &kp STAR
+&kp CLCK    &kp Q     &kp S  &kp D              &kp F  &kp G                    &kp H         &kp J         &kp K               &kp L      &kp M           &none                                     &kp RET
+&kp LSHFT   &kp W     &kp X  &kp C              &kp V  &kp B                    &kp N         &kp KP_COMMA  &none               &kp COLON  &kp EXCL                                                  &kp UP_ARROW
+&kp LCTRL   &kp LGUI         &kp LALT                                           &kp SPACE                                                  &mo 3           &kp LEFT_ARROW            &kp DOWN_ARROW  &kp RIGHT
 			>;
 		};
 
